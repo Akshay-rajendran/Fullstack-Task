@@ -1,0 +1,43 @@
+.card{
+    width: 1300px;
+    height: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: 30px;
+    box-shadow: rgb(255, 172, 172) 0px 5px 15px;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(240, 5, 5);
+    margin: 5px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.534) 1.95px 1.95px 2.6px;
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    /* color: red; */
+    font-family:   'Times New Roman', Times, serif;
+}
+.alltaskh1{
+    margin-left: 80px;
+    font-size: 3em;
+    color: brown;
+}
