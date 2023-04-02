@@ -1,2 +1,5 @@
 export const addtask="http://localhost:5000/addtask"
 export const getalltask="http://localhost:5000/getAllTask"
+export const deletetask="http://localhost:5000/delete/"
+export const getSingleTaskEdit="http://localhost:5000/getsingletask/"
+export const checkcompleted="http://localhost:5000/update/"
