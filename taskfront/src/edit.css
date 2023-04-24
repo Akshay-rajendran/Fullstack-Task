@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editbox{
+    width: 400px;
+    height: 500px;
+
+}
+.edith1{
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.editbtn{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+#standard-basic{
+    width: 400px;
+}
+.btnlog2{
+    color: #4f97e9;
+    text-decoration: none;
+}

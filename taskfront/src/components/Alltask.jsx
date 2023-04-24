@@ -18,9 +18,10 @@ useEffect(()=>{fectchalltask()},[])
 
 
   return (
+    <>
     
+    <h1 className="alltaskh1">All Task</h1>
     <div className="getalltask">
-      <h1 className="alltaskh1">All Task</h1>
       
       {alltask && alltask.map((m) => {
                             return (
@@ -30,6 +31,7 @@ useEffect(()=>{fectchalltask()},[])
 
    
    </div>
+   </>
   )
 }
 
