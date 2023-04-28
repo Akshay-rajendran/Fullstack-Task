@@ -1,5 +1,8 @@
-export const addtask="http://localhost:5000/addtask"
-export const getalltask="http://localhost:5000/getAllTask"
-export const deletetask="http://localhost:5000/delete/"
-export const getSingleTaskEdit="http://localhost:5000/getsingletask/"
-export const checkcompleted="http://localhost:5000/update/"
+const taskback="https://task-u71e.onrender.com"
+
+
+export const addtask=taskback+"/addtask"
+export const getalltask=taskback+"/getAllTask"
+export const deletetask=taskback+"/delete/"
+export const getSingleTaskEdit=taskback+"/getsingletask/"
+export const checkcompleted=taskback+"/update/"

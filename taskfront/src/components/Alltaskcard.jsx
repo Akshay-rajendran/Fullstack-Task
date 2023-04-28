@@ -12,7 +12,7 @@ function Alltaskcard({ taskmap }) {
 
   async function delet() {
     await axios.delete(deletetask + taskmap._id)
-    window.location.replace("http://localhost:5173/alltask");
+    window.location.replace("https://644c1ec9ff7a0d03d019e01b--golden-valkyrie-c6bb09.netlify.app//alltask");
 
   }
 
@@ -23,7 +23,7 @@ function Alltaskcard({ taskmap }) {
   async function chec() {
     let res = await axios.patch(checkcompleted + taskmap._id, { complete: true })
     console.log("completed", res);
-    window.location.replace("http://localhost:5173/alltask");
+    window.location.replace("https://644c1ec9ff7a0d03d019e01b--golden-valkyrie-c6bb09.netlify.app/alltask");
   }
 
 
