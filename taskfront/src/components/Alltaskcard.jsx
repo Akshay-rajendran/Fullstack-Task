@@ -12,7 +12,7 @@ function Alltaskcard({ taskmap }) {
 
   async function delet() {
     await axios.delete(deletetask + taskmap._id)
-    window.location.replace("/alltask");
+     window.location.reload(true)
 
   }
 
@@ -23,7 +23,7 @@ function Alltaskcard({ taskmap }) {
   async function chec() {
     let res = await axios.patch(checkcompleted + taskmap._id, { complete: true })
     console.log("completed", res);
-    window.location.replace("https://golden-valkyrie-c6bb09.netlify.app/alltask");
+    window.location.reload(true)
   }
 
 
