@@ -36,7 +36,7 @@ function Addtask() {
         <OutlinedInput id="standard-basic" placeholder='enter discription' variant="standard" className='input' inputRef={discriptionref} /><br />
         <div className="addbtn">
         <div className='btnlog'><Button variant="outlined" onClick={submit} >Add</Button></div>
-        <div className='btnlog'><Button variant="outlined"><Link  className='btnlog3' to="/alltask">Alltask</Link></Button></div>
+        <div className='btnlog'><Link  className='btnlog3' to="/alltask"><Button variant="outlined">Alltask</Button></Link></div>
     </div>
 
     </Box >
