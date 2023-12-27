@@ -1,5 +1,5 @@
 .card{
-    width: 980px;
+    width: 93%;
     height: 100px;
     /* border: 2px solid black; */
     display: flex;
@@ -7,7 +7,8 @@
     align-items: center;
     border-radius: 10px;
     background-color: white;
-    margin: 30px;
+    border: 1px solid;
+    margin: 4%;
     box-shadow: rgb(255, 172, 172) 0px 5px 15px;
 }
 
@@ -37,17 +38,24 @@
     font-family:   'Times New Roman', Times, serif;
 }
 .alltaskh1{
-    margin-left: 80px;
+    /* margin-left: 80px; */
     font-size: 3em;
+    width: 90%;
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
     color: brown;
     margin-top: 200px;
+    background-position: fixed;
     
 }
 .getalltask{
     width: 100vw;
     margin: 0;
     overflow-y: scroll;
-    height: 600px;
+    height: 400px;
 }
 .addbtn{
     width: 300px;
@@ -66,4 +74,18 @@
 }
 .btnlog{
     margin-right: 70px;
+}
+@media (max-width:952px){
+    .card{
+        width: 96%;
+        height: 100px;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        background-color: white;
+        /* margin: ; */
+        box-shadow: rgb(255, 172, 172) 0px 5px 15px;
+    }
 }
